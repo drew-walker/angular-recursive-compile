@@ -1,6 +1,6 @@
 {
   "name": "angular-recursive-compile",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "homepage": "https://github.com/drew-walker/angular-recursive",
   "authors": [
     "Drew Walker <drew.walker@gmail.com>"
@@ -22,5 +22,8 @@
   ],
   "dependencies": {
     "angular": "~1.3.9"
+  },
+  "devDependencies": {
+    "angular-recursive-directives": "~0.1.0"
   }
 }

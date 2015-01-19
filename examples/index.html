@@ -3,7 +3,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
-    <link href="recursive-directives/pretty-json/pretty-json.css" rel="stylesheet" />
+    <link href="../bower_components/angular-recursive-directives/src/recursive-directives.css" rel="stylesheet" />
 </head>
 <body ng-controller="exampleController">
     <h2>Recursive Unordered List</h2>
@@ -14,11 +14,9 @@
     <pretty-json class="pretty-json" json="sampleJson"></pretty-json>
     <script src="../bower_components/angular/angular.min.js"></script>
     <script src="../src/recursive.js"></script>
-    <script src="recursive-directives/recursive-directives.js"></script>
-    <script src="recursive-directives/unordered-list/unordered-list.js"></script>
-    <script src="recursive-directives/pretty-json/pretty-json.js"></script>
+    <script src="../bower_components/angular-recursive-directives/src/recursive-directives.js"></script>
     <script>
-        angular.module('examples', ["recursive", "recursiveDirectives"]);
+        angular.module('examples', ["recursiveDirectives"]);
 
         angular.module('examples').controller('exampleController', function($scope) {
             $scope.unorderedList = {
