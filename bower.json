@@ -1,0 +1,26 @@
+{
+  "name": "angular-recursive-compile",
+  "version": "0.2.0",
+  "homepage": "https://github.com/drew-walker/angular-recursive",
+  "authors": [
+    "Drew Walker <drew.walker@gmail.com>"
+  ],
+  "description": "A factory method for recursively compiling angular directives.",
+  "main": "src/recursive.js",
+  "keywords": [
+    "angular",
+    "recursive",
+    "directive"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.9"
+  }
+}
